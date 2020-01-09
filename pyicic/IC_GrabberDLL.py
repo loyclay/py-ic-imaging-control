@@ -37,8 +37,8 @@ class IC_GrabberDLL(object):
     init_library.restype = c_int
     init_library.argtypes = (c_char_p,)
     
-    #//////////////////////////////////////////////////////////////////////////
-    #/*! Creates a new grabber handle and returns it. A new created grabber should be
+    # //////////////////////////////////////////////////////////////////////////
+    # /*! Creates a new grabber handle and returns it. A new created grabber should be
     #    release with a call to IC_ReleaseGrabber if it is no longer needed.
     #    @retval Nonzero on success.
     #    @retval NULL if an error occurred.
